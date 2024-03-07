@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: () => import('./blue/blue.module').then( m => m.BluePageModule)
   },{
     path: '',
-    redirectTo: 'blue',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
