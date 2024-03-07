@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BluetoothSerial } from '@awesome-cordova-plugins/bluetooth-serial/ngx';  
 import { AlertController, LoadingController, NavController } from '@ionic/angular';
-import { IonicStorageModule, Storage } from '@ionic/storage-angular'; 
+import { Storage } from '@ionic/storage-angular'; 
 @Component({
   selector: 'app-blue',
   templateUrl: './blue.page.html',
